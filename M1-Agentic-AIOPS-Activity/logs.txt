@@ -1,0 +1,25 @@
+2025-09-03 09:50:00 INFO  Service manager initialized
+2025-09-03 09:52:12 INFO  Scheduled job 'cleanup-temp' started
+2025-09-03 09:54:05 WARN  High memory usage detected: 78%
+2025-09-03 09:56:30 INFO  Worker pool scaled to 6 instances
+2025-09-03 09:58:47 WARN  Disk latency increasing on /var: 120ms
+2025-09-03 09:59:50 INFO  Health check passed for api-service
+2025-09-03 10:00:10 ERROR Database connection timeout (DB_CONN_TIMEOUT)
+2025-09-03 10:00:17 ERROR Database connection timeout (DB_CONN_TIMEOUT)
+2025-09-03 10:00:24 ERROR Database connection timeout (DB_CONN_TIMEOUT)
+2025-09-03 10:00:31 ERROR Database connection timeout (DB_CONN_TIMEOUT)
+2025-09-03 10:02:15 ERROR Database connection refused (DB_CONN_REFUSED)
+2025-09-03 10:02:40 WARN  Retry queue length growing: 42
+2025-09-03 10:03:05 INFO  Autoscaler evaluated metrics, no action taken
+2025-09-03 10:04:50 WARN  Slow responses from auth-service: p95=1.2s
+2025-09-03 10:05:10 INFO  New deployment started: service=frontend, version=2025.09.03.1
+2025-09-03 10:07:22 INFO  Deployment frontend reached 50% traffic
+2025-09-03 10:08:00 WARN  Node c3-17 reports CPU steal: 6.5%
+2025-09-03 10:10:05 INFO  Scheduled job 'cleanup-temp' completed in 00:00:28
+2025-09-03 10:11:30 INFO  Cache flush performed for session-store
+2025-09-03 10:13:44 WARN  Increased error rate detected on checkout-service: 0.8%
+2025-09-03 10:15:00 INFO  Backup snapshot created: snapshot-2025-09-03-101500
+2025-09-03 10:16:10 WARN  Network jitter observed between datacenters: avg=35ms
+2025-09-03 10:17:45 INFO  Load balancer rebalanced traffic across 4 instances
+2025-09-03 10:18:30 INFO  Health check passed for all services
+2025-09-03 10:20:00 INFO  End of monitoring window
